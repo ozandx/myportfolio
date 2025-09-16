@@ -1,0 +1,229 @@
+/* =================== hover area start =================== */
+
+/* ===== Navbar Section ===== */
+.navbar-right a:hover {
+    color: #8E2DE2;
+}
+
+.navbar-right a:hover {
+    color: #8E2DE2;
+}
+
+/* ===== Home Section ===== */
+.icon-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.view-post-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.view-post-btn:hover .arrow-icon {
+    transform: translateX(4px);
+}
+
+/* ===== About Section ===== */
+.resume-btn:hover {
+    gap: 8px;
+    box-shadow: 0 0 12px rgba(142, 45, 226, 0.6), 0 0 24px rgba(74, 0, 224, 0.4);
+}
+
+.resume-btn:hover .arrow-icon {
+    transform: translateX(4px);
+}
+
+.courses-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    gap: 8px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5), 0 0 24px rgba(255, 255, 255, 0.3);
+}
+
+.courses-btn:hover .arrow-icon {
+    transform: translateX(4px);
+}
+
+
+.offer-item:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 0 16px rgba(142, 45, 226, 0.6), 0 0 32px rgba(74, 0, 224, 0.4);
+}
+
+.offer-icon svg {
+    transition: transform 0.3s ease;
+}
+
+.offer-item:hover .offer-icon svg {
+    transform: scale(1.1);
+}
+
+/* ===== Project Section ===== */
+.tool:hover img {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 20px rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.tool::after {
+    content: attr(data-name);
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: #000000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.tool:hover::after {
+    opacity: 1;
+}
+
+/* ===== Card Hover Effect ===== */
+.project-template {
+    position: relative;
+    perspective: 1000px;
+}
+
+.project-frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s ease;
+    z-index: 2;
+}
+
+.card-hover {
+    position: absolute;
+    inset: 0;
+    background: #fff;
+    transform: translateY(100%);
+    transition: transform 0.6s ease;
+    z-index: 3;
+    padding: 1rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    opacity: 0;
+}
+
+.project-template:hover .project-frame {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.project-template:hover .card-hover {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Card content styling */
+
+.card-hover {
+    background: linear-gradient(90deg, #8e2de2, #4a00e0);
+}
+
+.card-template {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.project-year{
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 100px;
+    margin-right: 4px;
+}
+
+.project-main-role{
+    background: rgba(255, 255, 255, 0.15);
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+}
+
+.project-main-role p{
+    font-size: 0.75rem;
+}
+
+.project-tag span {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 100px;
+    margin-right: 4px;
+}
+
+.project-swiper-button:hover {
+    transform: scale(1.15);
+}
+
+/* ===== Post Section ===== */
+.post-template:hover {
+  box-shadow: 0 0 12px rgba(142, 45, 226, 0.6), 0 0 24px rgba(74, 0, 224, 0.4);
+  transform: translateY(-4px);
+}
+
+.post-template:hover .post-image img {
+  transform: scale(1.05);
+}
+
+.post-template:hover .view-post {
+  gap: 8px;
+  text-decoration: underline;
+}
+
+.post-template:hover .view-post .arrow-icon {
+  transform: translateX(4px);
+}
+
+.loadmore:hover {
+  transform: scale(1.05);
+}
+
+/* ===== Contact Section ===== */
+.contact-column a:hover {
+    text-decoration: underline;
+}
+/* =================== hover area end =================== */
+
+/* =================== animation area start =================== */
+/* Splash Screen */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px); 
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    will-change: opacity, transform;
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-reveal-delay {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease 0.5s, transform 0.8s ease 0.5s;
+  will-change: opacity, transform;
+}
+
+.scroll-reveal-delay.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* =================== animation area end =================== */

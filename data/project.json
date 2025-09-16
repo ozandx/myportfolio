@@ -1,0 +1,74 @@
+[
+  {
+    "title": "GUI for analyzing 1D PhC Sensors Spectral Response",
+    "year": "2024",
+    "image": "images/recent/project/gui.jpg",
+    "description": "MATLAB app to compute transmission and reflection spectra of 1D PhC sensors for biosensing analysis.",
+    "role": "Matlab programmer",
+    "mainRole": "Main role:\nDesign and implement the GUI using Matlab AppDesigner, integrate simulation functions, and visualize results to support sensor performance evaluation.",
+    "tags": ["Matlab program", "Matlab AppDesigner", "Analysis"]
+  },
+  {
+    "title": "Blood Cancer Detection using 1D PhC Sensor with Matlab",
+    "year": "2024",
+    "image": "images/recent/project/mat.jpg",
+    "description": "Program to detect blood cancer by analyzing resonance characteristics for high sensitivity and accuracy.",
+    "role": "Researcher, Matlab programmer",
+    "mainRole": "Main role:\nDevelop simulations, conduct parameter analysis, and create visualizations and interpretations to evaluate performance of photonic sensor for blood cancer detection.",
+    "tags": ["Matlab program", "Analysis"]
+  },
+  {
+    "title": "Analyzing Spring–Damper of Prosthetic Leg Model",
+    "year": "2024",
+    "image": "images/recent/project/pleg.jpg",
+    "description": "Modeling a lower-knee prosthetic to find optimal stiffness and damping for comfort and stability of user.",
+    "role": "Researcher, Matlab programmer",
+    "mainRole": "Main role:\nWrite MATLAB simulations, perform parameter analysis, and produce visualizations and interpretations to support design decisions.",
+    "tags": ["Matlab program", "Analysis"]
+  },
+  {
+    "title": "Stock Screener & Portfolio Optimizer Web App",
+    "year": "2023",
+    "image": "images/recent/project/portoapp.jpg",
+    "description": "A web application that helps investors analyze, optimize, and track IDX stock portfolios based on risk profiles.",
+    "role": "Data Engineer",
+    "mainRole": "Main role:\nCreate code to perform web scraping, data transformation, and build backtesting and portfolio optimizers using Python, improving data accuracy and investment decision-making.",
+    "tags": ["Google Cloud Services", "Python", "SQL", "Streamlit", "Docker"]
+  },
+  {
+    "title": "Racing Plane Engineering Design Project",
+    "year": "2023",
+    "image": "images/recent/project/rcplane.jpg",
+    "description": "Lightweight racing plane for the Indonesian Flying Robot Contest, built for speed and agility.",
+    "role": "3D Designer, Design Analyst, Electronics Engineer",
+    "mainRole": "Main role:\nDevelop 3D designs and conduct design analysis, supporting assembly of the racing plane to maximize reliability and competitive performance.",
+    "tags": ["Arduino IDE", "C++", "Ansys Fluent", "SolidWorks", "Electronics Design"]
+  },
+  {
+    "title": "Analysis of VAWT Performance using Ansys Fluent",
+    "year": "2022",
+    "image": "images/recent/project/vawt.jpg",
+    "description": "Simulation of a vertical axis wind turbine (VAWT) under varying wind speed conditions using Ansys Fluent.",
+    "role": "3D Designer, Design Analyst",
+    "mainRole": "Main role:\nCreate 3D design models, perform wind flow simulations, and interpret results to evaluate turbine performance and efficiency.",
+    "tags": ["Ansys Fluent", "SolidWorks", "Electronics Design"]
+  },
+  {
+    "title": "UV Disinfection Quarantine Box for Daily Objects",
+    "year": "2021",
+    "image": "images/recent/project/qbox.jpg",
+    "description": "UV disinfectant quarantine box for daily objects during COVID-19 to minimize microbial transmission risk.",
+    "role": "Electronics Engineer",
+    "mainRole": "Main role:\nAct as Electronics Engineer, performing circuit design and validation using Multisim.",
+    "tags": ["NI Multisim", "Electronics Design", "Analysis"]
+  },
+  {
+    "title": "Motor Control on Arduino Using AVR Assembly",
+    "year": "2021",
+    "image": "images/recent/project/avr.jpg",
+    "description": "Motor control on Arduino using AVR assembly to achieve precise low-level hardware interaction.",
+    "role": "Electronics Designer",
+    "mainRole": "Main role:\nWrite AVR assembly code, configure the simulated Arduino environment, and test motor response in Proteus for validation.",
+    "tags": ["Proteus", "Electronics Design", "AVR Assembly"]
+  }
+]

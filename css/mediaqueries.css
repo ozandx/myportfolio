@@ -1,0 +1,351 @@
+@media screen and (min-width: 1024px) {
+    .navbar-right .nav-links {
+        display: flex;
+    }
+    .toggle {
+        display: none;
+    }
+}
+
+
+/* =================== TABLET (768px - 1024px) start =================== */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .navbar-right .nav-links li:not(:nth-child(-n+2)) {
+        display: none;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+    
+    /*navbar section*/
+    .navbar{
+        height: 64px;
+        padding: 0px 32px;
+    }
+
+    .navbar-right .nav-links li:not(:nth-child(-n+2)) {
+        display: none;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .sub-menu {
+        right: 32px;
+    }
+    
+    /*home section*/
+    .home-image-overlay{
+        left: 32px;
+    }
+
+    .home-content {
+        padding: 40px 32px;
+    }
+    
+    .home-header h1 {
+        font-size: 80px;
+    }
+
+    .home-title2 {
+        margin-top: -30px;
+    }
+
+    /*about section*/
+    #about {
+        padding: 0px 32px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        gap: 96px; 
+    }
+
+    .about-layout {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px; 
+    }
+
+    .about-photo {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .about-description {
+        max-width: none;
+    }
+
+    .about-download-btn{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .resume-btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .courses-btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-offers {
+        gap: 16px;
+    }
+
+    /*experience section*/
+    #experience {
+        padding: 0px 32px;
+    }
+
+    .experience-block {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;              
+    }
+
+    /*project section*/
+    #project{
+        padding: 0px 32px
+    }
+
+    .project-wrapper{
+        margin: 0 0px 35px;
+    }
+
+    /*post section*/
+    #post{
+        padding: 0px 32px
+    }
+
+    /*contact section*/
+    .contact-container{
+        padding: 32px 32px;
+    }
+
+    .contact-content{
+        gap: 16px;
+    }
+
+}
+/* =================== TABLET (768px - 1024px) end =================== */
+
+
+/* =================== MOBILE (max-width: 767px) start =================== */
+@media screen and (max-width: 768px) {
+    .navbar-right .nav-links {
+        display: none;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+    /*navbar section*/
+    .navbar{
+        height: 56px;
+        padding: 0px 20px;
+    }
+
+    .code-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .navbar-right .nav-links {
+        display: none;
+    }
+
+    .toggle {
+        display: flex;
+    }
+
+    .sub-menu {
+        right: 20px;
+    }
+
+    /*home section*/
+    .home-image-overlay{
+        left: 20px;
+    }
+
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 16px 20px;
+    }
+
+    .home-subtitle{
+        font-size: 16px;
+    }
+
+    .icon-forhome{
+        width: 64px;
+        height: 64px;
+        stroke-width: 1.5;
+    }
+
+    .text-overlay{
+        max-width: 365px;
+    }
+
+    .home-header h1 {
+        padding: 4px 0px 4px 0px;
+        font-size: 56px;
+    }
+
+    .home-title2 {
+        margin-top: -20px;
+    }
+
+    /*about section*/
+    #about {
+        padding: 0px 20px;
+    }
+
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        gap: 96px; 
+    }
+
+    .about-layout {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px; 
+    }
+
+    .about-title h2, .about-title h3 {
+        font-size: 24px;
+    }
+
+
+    .about-photo {
+        max-width: 250px;
+        max-height: 188px;
+    }
+
+    .about-photo img{
+        max-width: 208px;
+        max-height: 271px;
+    }
+
+    .stat-number {
+        font-size: 48px;
+    }
+
+    .about-download-btn{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .resume-btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .courses-btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .about-offers {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .offer-item{
+        max-height: 200px;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /*experience section*/
+    #experience {
+        padding: 0px 20px;
+    }
+
+    .experience-block {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;              
+    }
+
+    .experience-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px; 
+        align-items: center;
+    }
+
+    .experience-summary{
+        font-size: 14px;
+    }
+
+    .title-container{
+        font-size: 24px;
+    }
+
+    /*project section*/
+    #project{
+        padding: 0px 20px
+    }
+
+    .container-1 h2{
+        font-size: 24px;
+    }
+
+    .container-1 h3{
+        font-size: 14px;
+    }
+
+    .container-2 h2{
+        font-size: 24px;
+    }
+
+    .container-2 h3{
+        font-size: 14px;
+    }
+
+    .project-wrapper{
+        margin: 0 0px 35px;
+    }
+
+    /*post section*/
+    #post{
+        padding: 0px 20px
+    }
+
+    .post-header h2{
+        font-size: 24px;
+    }
+
+    .post-header h3{
+        font-size: 14px;
+    }
+
+    /*contact section*/
+    .contact-container{
+        padding: 32px 20px;
+    }
+
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 16px;
+    }
+}
+/* =================== MOBILE (max-width: 767px) end =================== */

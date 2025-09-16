@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/svg/favicon.svg" type="image/svg+xml">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Icons+Two+Tone"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <!-- ===== Navbar ===== -->
+    <header class="navbar">
+        <div class="navbar-left">
+            <svg
+                class="code-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+            >
+            <path
+                d="M9.81175,1.23848 C10.3070964,1.37121929 10.6154651,1.85349541 10.5425767,2.3488407 L10.5189,2.46323 L7.41303,14.0543 C7.27009,14.5878 6.72175,14.9044 6.18828,14.7614 C5.69292429,14.6287071 5.38457224,14.1464602 5.45749504,13.6510948 L5.48118,13.5367 L8.58701,1.94559 C8.72995,1.41213 9.27829,1.09554 9.81175,1.23848 Z M4.70711,4.29288 C5.09763,4.68341 5.09763,5.31657 4.70711,5.7071 L2.41421,7.99999 L4.70711,10.2929 C5.09763,10.6834 5.09763,11.3166 4.70711,11.7071 C4.31658,12.0976 3.68342,12.0976 3.29289,11.7071 L0.292893,8.7071 C-0.0976311,8.31657 -0.0976311,7.68341 0.292893,7.29288 L3.29289,4.29288 C3.68342,3.90236 4.31658,3.90236 4.70711,4.29288 Z M11.2929,4.29288 C11.6533615,3.9324 12.2206207,3.90467077 12.6128973,4.20969231 L12.7071,4.29288 L15.7071,7.29288 C16.0675615,7.65336923 16.0952893,8.22059645 15.7902834,8.61289152 L15.7071,8.7071 L12.7071,11.7071 C12.3166,12.0976 11.6834,12.0976 11.2929,11.7071 C10.9324385,11.3466385 10.9047107,10.7793793 11.2097166,10.3871027 L11.2929,10.2929 L13.5858,7.99999 L11.2929,5.7071 C10.9024,5.31657 10.9024,4.68341 11.2929,4.29288 Z"
+            />
+            </svg>
+            <span class="brand">FAUZAN DHARMAWAN</span>
+        </div>
+
+        <div class="navbar-right">
+            <!-- Visible links -->
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#project">PROJECT</a></li>
+                <li><a href="#post">POST</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <!-- Toggle -->
+            <button class="toggle">
+                <span class="material-icons">more_vert</span>
+            </button>
+        </div>
+
+        <!-- Submenu (hidden by default) -->
+        <div class="sub-menu">
+            <a href="#home" class="option">HOME</a>
+            <a href="#about" class="option">ABOUT</a>
+            <a href="#experience" class="option">EXPERIENCE</a>
+            <a href="#project" class="option">PROJECT</a>
+            <a href="#post" class="option">POST</a>
+            <a href="#contact" class="option">CONTACT</a>
+        </div>
+    </header>
+    <main>
+    <!-- ===== Home Section ===== -->
+        <section id="home" class="section-home">
+            <div class="home-container">
+                <div class="home-image-container">
+                    <div class="home-image scroll-reveal">
+                        <img src="images/neon-spiral-3d-model.png" alt="Neon Spiral 3D Model"/>
+                    </div>
+                    <div class="home-image-overlay">
+                        <div class="text-overlay scroll-reveal-delay">
+                            <p>My Projects & Technical Experiments</p>
+                            <h1>Learning by doing, growing with purpose.</h1>
+                        </div>
+                        <div class="social-icons scroll-reveal-delay">
+                            <!-- LinkedIn -->
+                            <a href="https://www.linkedin.com/in/fauzandharmawan/" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="LinkedIn">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 512 512">
+                                <path d="M116.504,500.219V170.654H6.975v329.564H116.504zM61.751,125.674c38.183,0,61.968-25.328,61.968-56.953
+                                    c-0.722-32.328-23.785-56.941-61.252-56.941C24.994,11.781,0.5,36.394,0.5,68.722c0,31.625,23.772,56.953,60.53,56.953H61.751z
+                                    M177.124,500.219c0,0,1.437-298.643,0-329.564H286.67v47.794h-0.727c14.404-22.49,40.354-55.533,99.44-55.533
+                                    c72.085,0,126.116,47.103,126.116,148.333v188.971H401.971V323.912c0-44.301-15.848-74.531-55.497-74.531
+                                    c-30.254,0-48.284,20.38-56.202,40.08c-2.897,7.012-3.602,16.861-3.602,26.711v184.047H177.124z" />
+                                </svg>
+                            </a>
+
+                            <!-- GitHub -->
+                            <a href="https://github.com/ozandx" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="GitHub">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="84 7399 20 20">
+                                <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" />
+                                </svg>
+                            </a>
+
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/fzn.dh?igsh=cW1tNGk2anVyeHYx" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 50 50">    
+                                <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"/>
+                                </svg>
+                            </a>
+
+                            <!-- View My Post -->
+                            <a href= "#post" class="view-post-btn">
+                                View My Post
+                                <svg class="arrow-icon" fill="none" stroke="currentColor" stroke-width="1.5"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                </svg>
+                            </a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="home-content">
+                    <div class="home-header">
+                        <h1 class="home-title1 scroll-reveal">PORTOFOLIO</h1>
+                        <h1 class="home-title2 scroll-reveal">PROJECT</h1>  
+                    </div>
+                    <div class="home-subheader">
+                        <h3 class="home-subtitle scroll-reveal">Welcome to my digital space !</h2>
+                        <svg class="icon-forhome scroll-reveal" fill="none" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <defs>
+                                <linearGradient id="gradientStroke" gradientTransform="rotate(315, 0.5, 0.5)">
+                                <stop offset="0%" stop-color="#4a00e0" />
+                                <stop offset="100%" stop-color="#8e2de2" />
+                                </linearGradient>
+                            </defs>
+                            <path stroke="url(#gradientStroke)" stroke-linecap="round" stroke-linejoin="round" d="m4.5 4.5 15 15m0 0V8.25m0 11.25H8.25" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== About Section ===== -->
+        <section id="about" class="section-about">
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-title scroll-reveal">
+                        <h2>Hi, I Am Fauzan Dharmawan</h2>
+                        <h3>
+                            <span class="purple-text typing-text" id="typing-text"></span>
+                            <span class="placeholder-text" aria-hidden="true">Tech Enthusiast.</span>
+                        </h3>
+                    </div>
+                    <div class="about-layout">
+                        <div class="about-photo scroll-reveal">
+                            <img src="images/me.png" alt="Fauzan Dharmawan" />
+                        </div>
+                        <div class="about-description scroll-reveal">
+                            <p>
+                                I'm Electrical Engineering graduate from University of Al Azhar Indonesia.
+                                I have strong interest in cloud computing, IoT, system analysis, and programming.
+                                <br>
+                                <br>
+                                I love turning ideas into real projects, whether it’s building code, optimizing systems, or exploring new tech.
+                                i open for job opportunities in tech industry.
+                            </p>
+                            <div class="stats scroll-reveal">
+                                <div class="stat-item">
+                                    <span class="stat-number" data-number="30"></span>
+                                    <div class="stat-label">
+                                        <span>Learning Program</span>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number" data-number="1"></span>
+                                    <div class="stat-label">
+                                        <span>Work Experience</span>
+                                    </div>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number" data-number="5"></span>
+                                    <div class="stat-label">
+                                        <span>College Project<span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-download-btn">
+                                <div class="resume scroll-reveal">
+                                    <a href="#" class="resume-btn" target="_blank">
+                                        <span class="resume-text">Download Resume</span>
+                                        <svg class="arrow-icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="courses scroll-reveal">
+                                    <a href="https://drive.google.com/drive/folders/1oGNhsmmxxHzrhfSqQpR1xhpAeLKA1Eov?usp=sharing" class="courses-btn" target="_blank">
+                                        <span class="courses-text">Courses Completions</span>
+                                        <svg class="arrow-icon" fill="none" stroke-width="1.5" stroke="currentColor"
+                                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-subcontent">
+                    <div class="about-title scroll-reveal">
+                        <h2>Key <span class="purple-text">Capabilities</span></h2>
+                    </div>
+                    <div class="about-offers scroll-reveal">
+                        <div class="offer-item">
+                            <div class="offer">
+                                <div class="offer-icon">
+                                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"></path>
+                                    </svg>
+                                </div>
+                                <div class="offer-text">
+                                    <h3>Core Competencies</h3>
+                                    <p>I’m comfortable working with code, architecting, and adapting quickly to new tech.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <div class="offer">
+                                <div class="offer-icon">
+                                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 7.5-9-5.25L3 7.5m18 0-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9"></path>
+                                    </svg>
+                                </div>
+                                <div class="offer-text">
+                                    <h3>Professional Interests</h3>
+                                    <p>I like building with tech, strategy, data, and being part of both planning and doing.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offer-item">
+                            <div class="offer">
+                                <div class="offer-icon">
+                                    <svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="offer-text">
+                                    <h3>Value Proposition</h3>
+                                    <p>I’m adaptable, think critically, and work well with others to get things done.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Experience ===== -->
+        <section id="experience" class="section-experience">
+            <div class="experience-container">
+                <div class="experience-header">
+                    <h2 class="title-container scroll-reveal">A Glimpse Into <span class="purple-text">My Experience</span></h2>
+                </div>
+                <div class="experience-layout">
+                    <div class="experience-block scroll-reveal">
+                        <div class="experience-subheader">
+                            <h3 class="experience-chapter">Training</h3>
+                            <p class="experience-subchapter">Online Training</p>
+                        </div>
+                        <div class="experience-content-container">
+                            <div class="experience-content">
+                                <h3 class="experience-title">AWS Skill Builder</h3>
+                                <div class="experience-item">
+                                    <div class="experience-tags">
+                                        <span class="tag">Trainee</span>
+                                        <span class="tag">Zoom Meeting</span>
+                                        <span class="tag">AWS Skill Builder</span>
+                                        <span class="tag-orange">Apr 2025 – Present</span>
+                                    </div>
+                                    <p class="experience-summary">
+                                        Engaged in self-paced learning through the AWS Skill Builder platform, covering core cloud fundamentals such as Compute, Containers, Storage, Databases, Networking, Security, and Architecting. The program includes monthly online mentoring sessions for progress evaluation and discussion, with a goal of completing the learning path and earning AWS Certified Solutions Architect certification.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">Japanese Language Training</h3>
+                                <div class="experience-item">
+                                    <div class="experience-tags">
+                                        <span class="tag">Trainee</span>
+                                        <span class="tag">LPK Kebun</span>
+                                        <span class="tag">Zoom Meeting</span>
+                                        <span class="tag">Digital Textbook</span>
+                                        <span class="tag-orange">Feb 2025 – Present</span>
+                                    </div>
+                                    <p class="experience-summary">
+                                        Participated in intensive online Japanese language classes using the “Irodori” textbook, with 2-hour sessions held five days a week in a virtual group setting. The training focused on practical conversation, grammar comprehension, and essential kanji reading, targeting JLPT N4–N3 proficiency to support career readiness in Japan.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-block scroll-reveal">
+                        <div class="experience-subheader">
+                            <h3 class="experience-chapter">Internship</h3>
+                            <p class="experience-subchapter"> & Part Time</p>
+                        </div>
+                        <div class="experience-content-container">
+                            <div class="experience-content">
+                                <h3 class="experience-title">Part-time Research Assistant</h3>
+                                <div class="experience-item">
+                                    <div class="experience-tags">
+                                        <span class="tag">Research Assistant</span>
+                                        <span class="tag">Universitas Al Azhar Indonesia</span>
+                                        <span class="tag">MATLAB</span>
+                                        <span class="tag-orange">Sep 2024 – Jan 2025</span>
+                                    </div>
+                                    <p class="experience-summary">
+                                        Conducted research and experimental analysis to support photonic-based technology development, including the creation of MATLAB simulations and modeling algorithms for optical response analysis. Proactively explored new technologies and applied advanced simulation techniques to enhance data accuracy, demonstrating strong enthusiasm for innovative, tech-driven solutions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">Digistar Internship Telkom (MSIB 5)</h3>
+                                <div class="experience-item">
+                                    <div class="experience-tags">
+                                        <span class="tag">Data Engineer Intern</span>
+                                        <span class="tag">Telkom Indonesia</span>
+                                        <span class="tag">Google Cloud Platform</span>
+                                        <span class="tag-orange">Aug 2023 – Des 2023</span>
+                                    </div>
+                                    <p class="experience-summary">
+                                        Contributed to the Stock Screener & Portfolio Optimization Project by designing and implementing EL/ETL/ELT workflows using Google Cloud services (Cloud Storage, BigQuery, Dataform). Integrated web scraping and API pipelines to enrich real-time datasets for time series analysis, and collaborated with data scientists to merge these pipelines with ML models. Developed backtesting frameworks to evaluate strategies, enhancing both decision-making and output quality.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-block scroll-reveal">
+                        <div class="experience-subheader">
+                            <h3 class="experience-chapter">Leadership Experiences</h3>
+                            <p class="experience-subchapter">Organization</p>
+                        </div>
+                        <div class="experience-content-container">
+                            <div class="experience-content">
+                                <h3 class="experience-title">Vice Chairman</h3>
+                                <div class="experience-item">
+                                    <div class="experience-tags">
+                                        <span class="tag">Science & Robotic Club UAI</span>
+                                        <span class="tag">Universitas Al Azhar Indonesia</span>
+                                        <span class="tag-orange">Mar 2023 – Feb 2024</span>
+                                    </div>
+                                    <p class="experience-summary">
+                                        Collaborated with the chairman to oversee club operations and provide leadership support, occasionally serving as acting chairman. Managed and coordinated four departments to ensure organizational alignment and efficiency, while actively leading event planning, fostering teamwork, and promoting club initiatives.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience-content">
+                                <h3 class="experience-title">Chief of Research and Technology Department</h3>
+                                <div class="experience-item">
+                                    <div class="experience-tags">
+                                        <span class="tag">EE Student Association</span>
+                                        <span class="tag">Universitas Al Azhar Indonesia</span>
+                                        <span class="tag-orange">Jul 2022 – Feb 2023</span>
+                                    </div>
+                                    <p class="experience-summary">
+                                        Designed and executed a structured work program to support the department's objectives within the Electrical Engineering major. Led technology workshops and hands-on training to strengthen members' technical skills, while organizing academic support initiatives that helped students master key concepts. Ensured smooth implementation of departmental activities, enhancing the association’s impact within the academic community.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Project Section ===== -->
+        <section id="project" class="section-project">
+            <div class="project-container">
+                <div class="project-header">
+                    <div class="container-1 scroll-reveal">
+                        <h2>Tools <span class="purple-text">I Use</span></h2>
+                        <h3>These Are the Technologies and Tools I Use.</h3>
+                    </div>
+                    <div class="tools scroll-reveal">
+                        <div class="tool" data-name="Python">
+                            <img src="images/tools/python.png" alt="Python" />
+                        </div>
+                        <div class="tool" data-name="HTML5">
+                            <img src="images/tools/html.png" alt="Html5" />
+                        </div>
+                        <div class="tool" data-name="CSS3">
+                            <img src="images/tools/css.png" alt="Css3" />
+                        </div>
+                        <div class="tool" data-name="Git">
+                            <img src="images/tools/git.png" alt="Git" />
+                        </div>
+                        <div class="tool" data-name="Matlab">
+                            <img src="images/tools/matlab.png" alt="Matlab" />
+                        </div>
+                        <div class="tool" data-name="VSCode">
+                            <img src="images/tools/vscode.png" alt="Vscode" />
+                        </div>
+                        <div class="tool" data-name="GitHub">
+                            <img src="images/tools/github.png" alt="Github" />
+                        </div>
+                        <div class="tool" data-name="Arduino">
+                            <img src="images/tools/arduino.png" alt="Arduino" />
+                        </div>
+                        <div class="tool" data-name="Proteus">
+                            <img src="images/tools/proteus.png" alt="Proteus" />
+                        </div>
+                        <div class="tool" data-name="Shell Scripting">
+                            <img src="images/tools/cli.png" alt="Shell-Scripting" />
+                        </div>
+                    </div>
+                </div>
+                <div class="recent-project">
+                    <div class="container-2 scroll-reveal">
+                        <h2>Things I’ve Worked On <span class="purple-text">Lately</span></h2>
+                        <h3>Personal and learning-based projects.</h3>
+                    </div>
+                    <div class="project-portfolio-container swiper scroll-reveal">
+                        <div class="project-wrapper">
+                            <ul class="container-3 swiper-wrapper" id="project-slide-wrapper">
+                            </ul>
+                            <div class="swiper-pagination"></div>
+                            <div class="project-swiper-button swiper-button-prev"></div>
+                            <div class="project-swiper-button swiper-button-next"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===== Post Section ===== -->
+        <section id="post" class="section-post">
+            <div class="post-container">
+                <div class="post-header  scroll-reveal">
+                    <h2>Recent <span class="purple-text">Posts</span></h2>
+                    <h3>Shared on LinkedIn.</h3>
+                </div>
+                <div class="post-content scroll-reveal">
+                    <div class="post-item" id="postList">
+                    </div>
+                    <div class="loadmore-wrapper" style="text-align: center; margin-top: 2rem;">
+                        <button class="loadmore">Load More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ===== Contact Section ===== -->
+    <footer id="contact" class="section-contact">
+        <div class="contact-container">
+            <div class="contact-header scroll-reveal">
+                <h3>Contact</h3>
+            </div>
+            <div class="contact-content scroll-reveal">
+                <!-- Column 1 -->
+                <div class="contact-column">
+                    <p>Email<br><a href="mailto:ozan31102@gmail.com">ozan31102@gmail.com</a></p>
+                    <p>Phone<br>+62 851 7206 9792</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="contact-column">
+                    <p>Social media</p>
+                    <p>GitHub<br><a href="https://github.com/ozandx">github.com/ozandx</a></p>
+                    <p>Instagram<br><a href="https://www.instagram.com/fzn.dh?igsh=cW1tNGk2anVyeHYx">fzn.dh</a></p>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="contact-column">
+                    <p>LinkedIn<br>
+                        <a href="https://www.linkedin.com/in/fauzandharmawan/">linkedin.com/in/fauzandharmawan/</a>
+                    </p>
+                    <p>Telegram<br><a href="https://t.me/fauzan_dharmawan">t.me/fauzan_dharmawan</a></p>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="contact-column">
+                    <p>Designed and coded<br>by Fauzan Dharmawan</p>
+                </div>
+            </div>
+            <!-- Watermark -->
+            <div class="watermark" id="watermark">@2025 Portfolio</div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
